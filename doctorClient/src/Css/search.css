@@ -1,0 +1,29 @@
+
+
+#searchdiv{
+    align-items: center;
+    background-color:#E3F2FD;
+    width: 500px;
+    height: 300px;
+    display: flexbox;
+    justify-content: center;
+    margin: auto;
+    border-radius: 20px;
+    width: 400px;
+    color:#333333;
+    margin-top: 20px;
+}
+#searchdiv form{
+justify-items: center;  
+text-align: center;
+}
+#searchdiv h1{
+    text-align: center;
+}
+#searchdiv #button{
+  background-color: #003366;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+
+}

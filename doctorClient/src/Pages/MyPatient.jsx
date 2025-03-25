@@ -35,7 +35,8 @@ const MyPatient=()=>{
 
     return(
         <>
-          <h1> Patient List</h1>
+        <div>
+          {/* <h1> Patient List</h1> */}
           <hr />
           <Table striped bordered hover>
       <thead>
@@ -52,7 +53,7 @@ const MyPatient=()=>{
         </tbody>
         </Table>
 
-        
+        </div>
         </>
     )
 }

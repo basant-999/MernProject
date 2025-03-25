@@ -1,0 +1,33 @@
+
+
+#dashdiv{
+    text-align: center;
+    height: 200px;
+    background-color: black;
+    align-items: center;
+}
+#hadin{
+    color: rgb(216, 195, 195);
+    margin-top: 10px;
+}
+#localname{
+    font-size: 30px;
+}
+
+#logout{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+#logout button{
+    border-radius: 5px;
+    border: none;
+    
+}
+#logout button:hover{
+    color: black;
+    background-color: red;
+    transition: 1s;
+    
+}

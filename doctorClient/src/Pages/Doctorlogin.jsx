@@ -6,6 +6,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { useNavigate } from 'react-router-dom'
+import "../Css/login.css"
 
 const Doctorlogin = () => {
   const navigate = useNavigate()
@@ -34,18 +35,17 @@ const Doctorlogin = () => {
   return (
 
     <>
-      <h1> Doctor Login</h1>
-          <div id="doclogin">
+     
+          <div id="searchdiv">
+          <h1>  Login</h1>
           <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label>Email address</Form.Label>
-        <Form.Control type="email" name="email" value={email} onChange={(e)=>{Setemail(e.target.value)}} />
-      </Form.Group>
+        <Form.Control  type="email" name="email" value={email} onChange={(e)=>{Setemail(e.target.value)}} /> </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicPassword">
         <Form.Label>Password</Form.Label>
-        <Form.Control type="password" name="password" value={password} onChange={(e)=>{Setpassword(e.target.value)}}  />
-      </Form.Group>
+        <Form.Control type="password" name="password" value={password} onChange={(e)=>{Setpassword(e.target.value)}}  /></Form.Group>
       <Button variant="primary" type="submit" onClick={handleSubmit} >
         Submit
       </Button>

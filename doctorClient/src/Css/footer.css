@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#maindiv{
+    background-color: black;
+    height: 200px;
+    align-items: center;
+}
+#socialmedia{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#soicons{
+    font-size: 40px;
+    width: 500px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+  
+   
+}
+#sohad{
+    font-size: 30px;
+    color: white;
+    margin: 10px;
+    font-weight: 700;
+
+}
+
+#seconddiv{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#senhad{
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+
+}
+#secsos{
+    font-size: 30px;
+    color: white;
+}

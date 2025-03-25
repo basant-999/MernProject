@@ -42,13 +42,13 @@ const Topmenu = () => {
     <>
       <Navbar bg="dark" data-bs-theme="dark">
         <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+          <Navbar.Brand href="#home">CarWale</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link as={Link} to="/">Home</Nav.Link>
-            <Nav.Link as={Link} to="searchdoctor">Search Doctor</Nav.Link>
+            <Nav.Link as={Link} to="searchdoctor">Search Car</Nav.Link>
             <Nav.Link as={Link} to="about">About</Nav.Link>
-            <Nav.Link href="#pricing" onClick={handleShow}>Doctor-Resistration</Nav.Link>
-            <Nav.Link as={Link} to="doctorlogin">DoctorLogin</Nav.Link>
+            <Nav.Link href="#pricing" onClick={handleShow}>Sale-To-Resistration</Nav.Link>
+            <Nav.Link as={Link} to="doctorlogin">Sale-to-Login</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
@@ -57,12 +57,12 @@ const Topmenu = () => {
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
-          <Modal.Title>Doctor Registration</Modal.Title>
+          <Modal.Title> Registration</Modal.Title>
         </Modal.Header>
         <Modal.Body>
              <Form>
                      <Form.Group className="mb-3" controlId="formBasicEmail">
-                         <Form.Label>Enter Doctor Name</Form.Label>
+                         <Form.Label>Enter Car Name</Form.Label>
                          <Form.Control type="text" name="name" onChange={handleInput}/>
                      </Form.Group>
                      <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -79,14 +79,14 @@ const Topmenu = () => {
                      </Form.Group>
 
                     <Form.Group className="mb-3" controlId="formBasicEmail">
-                         <Form.Label>select Specialization</Form.Label>
+                         <Form.Label>select BrandName</Form.Label>
                             <Form.Select aria-label="Default select example" name="speciality" onChange={handleInput}>
                             <option>Open this select menu</option>
-                            <option value="Cardiologist">Cardiologist</option>
-                            <option value="ENT">ENT</option>
-                            <option value="Neuro Surgeon">Neuro Surgeon</option>
-                            <option value="Dentist">Dentist</option>
-                            <option value="Plastic Surgeon">Plastic Surgeon</option>
+                            <option value="Cardiologist">  Mahendra</option>
+                            <option value="ENT"> Maruti Suzuki</option>
+                            <option value="Neuro Surgeon">Foard</option>
+                            <option value="Dentist">TATA</option>
+                            <option value="Plastic Surgeon">Toyota</option>
                          </Form.Select>
                      </Form.Group>
                      <Form.Group className="mb-3" controlId="formBasicEmail">

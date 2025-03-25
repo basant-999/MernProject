@@ -3,6 +3,7 @@ import Form from 'react-bootstrap/Form';
 import { useState } from 'react';
 import axios from 'axios';
 import BASE_URL from '../Config';
+import "../Css/search.css"
 
 
 import Table from 'react-bootstrap/Table';
@@ -46,27 +47,27 @@ const ans=mydata.map((key)=>{
   return (
    
     <>
-    <div style={{width:"500px", margin:"auto"}}>
-         <h1 > Search Doctor</h1> 
+    <div id='searchdiv'>
+         <h1 > search car</h1> 
 
          <Form>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Enter Doctor Name</Form.Label>
+        <Form.Label>Enter Car Name</Form.Label>
         <Form.Control type="text" name="name" onChange={handleInput}/>
       </Form.Group>
     
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>select Specialization</Form.Label>
+        <Form.Label>select Brand</Form.Label>
         <Form.Select aria-label="Default select example" name="speciality" onChange={handleInput}>
           <option>Open this select menu</option>
-          <option value="Cardiologist">Cardiologist</option>
-          <option value="ENT">ENT</option>
-          <option value="Neuro Surgeon">Neuro Surgeon</option>
-          <option value="Dentist">Dentist</option>
-          <option value="Plastic Surgeon">Plastic Surgeon</option>
+          <option value="Cardiologist"> Mahendra </option>
+          <option value="ENT"> Maruti Suzuki</option>
+          <option value="Neuro Surgeon">Foard</option>
+          <option value="Dentist">TATA</option>
+          <option value="Plastic Surgeon">Toyota</option>
     </Form.Select>
       </Form.Group>
-       <input type="button" value="search" onClick={handleSubmit} /> 
+       <input  id='button' type="button" value="search" onClick={handleSubmit} /> 
     </Form>      
     </div>
 
@@ -74,12 +75,12 @@ const ans=mydata.map((key)=>{
     <Table striped bordered hover>
       <thead>
         <tr>
-          <th>Doctor name#</th>
+          <th>Car name#</th>
           <th>Address</th>
           <th>City</th>
           <th>Email</th>
           <th>Mobile</th>
-          <th>Specialization</th>
+          <th>BrandName</th>
         </tr>
       </thead>
       <tbody>

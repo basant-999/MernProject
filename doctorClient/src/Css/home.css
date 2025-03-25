@@ -1,0 +1,35 @@
+#navimg{
+    width: 100%;
+    height: 70vh;
+}
+#navimg img{
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+}
+
+#hading{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+#cardhome{
+   width: 300px;
+   display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+#cardsection{
+    
+   
+    display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 10px;
+   
+}

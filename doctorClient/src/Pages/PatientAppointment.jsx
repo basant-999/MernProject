@@ -44,15 +44,15 @@ const PatientAppointment=()=>{
   
     return(
         <>
-          <h1 align="center"> Patient Appointment Form : </h1>
+          <h1 align="center"> Booking car Form : </h1>
            <h4 style={{color:"blue"}} align="center"> Your Doctor : {docInfo.name} Speciality : {docInfo.specailization}</h4>
           <Form style={{width:"400px", margin:"auto"}}>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Enter Patient Name</Form.Label>
+        <Form.Label>Enter car Name</Form.Label>
         <Form.Control type="text" name="name" onChange={handleInput}/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
-        <Form.Label>Enter Disease</Form.Label>
+        <Form.Label>Enter Brand</Form.Label>
         <Form.Control type="text" name="disease" onChange={handleInput}/>
       </Form.Group>
       <Form.Group className="mb-3" controlId="formBasicEmail">
